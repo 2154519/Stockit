@@ -1,0 +1,2 @@
+# Stockit
+Stock Management System
