@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StockManagementSystem">
+        <activity android:name=".GenerateReportScreen1"></activity>
+        <activity android:name=".TakeInventoryScreen" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".RegisterScreen2" />
+        <activity android:name=".RegisterScreen1" />
+        <activity android:name=".SignInScreen" />
+        <activity android:name=".StartScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
