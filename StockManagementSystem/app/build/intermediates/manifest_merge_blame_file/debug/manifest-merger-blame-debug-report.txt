@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.stockmanagementsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:5:5-64
+11-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:5:22-62
+12
+13    <application
+13-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:8:5-33:19
+14        android:allowBackup="true"
+14-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] /home/mpendulo/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:13:9-35
+21        android:theme="@style/Theme.StockManagementSystem" >
+21-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:14:9-59
+22        <activity android:name="com.example.stockmanagementsystem.QRScanScreen" />
+22-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:15:9-59
+22-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:15:19-47
+23        <activity android:name="com.example.stockmanagementsystem.QuantityScreen" />
+23-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:16:9-52
+23-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:16:19-49
+24        <activity android:name="com.example.stockmanagementsystem.ManualInsertionScreen" />
+24-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:17:9-59
+24-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:17:19-56
+25        <activity android:name="com.example.stockmanagementsystem.GenerateReportScreen2" />
+25-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:18:9-59
+25-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:18:19-56
+26        <activity android:name="com.example.stockmanagementsystem.GenerateReportScreen1" />
+26-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:19:9-59
+26-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:19:19-56
+27        <activity android:name="com.example.stockmanagementsystem.TakeInventoryScreen" />
+27-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:20:9-57
+27-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:20:19-54
+28        <activity android:name="com.example.stockmanagementsystem.HomeScreen" />
+28-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:21:9-48
+28-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:21:19-45
+29        <activity android:name="com.example.stockmanagementsystem.RegisterScreen2" />
+29-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:22:9-53
+29-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:22:19-50
+30        <activity android:name="com.example.stockmanagementsystem.RegisterScreen1" />
+30-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:23:9-53
+30-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:23:19-50
+31        <activity android:name="com.example.stockmanagementsystem.SignInScreen" />
+31-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:24:9-50
+31-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:24:19-47
+32        <activity android:name="com.example.stockmanagementsystem.StartScreen" />
+32-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:25:9-49
+32-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:25:19-46
+33        <activity android:name="com.example.stockmanagementsystem.MainActivity" >
+33-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:26:9-32:20
+33-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:26:19-47
+34            <intent-filter>
+34-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:27:13-31:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:28:17-69
+35-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:30:17-77
+37-->/home/mpendulo/Documents/GitHub/Stockit/StockManagementSystem/app/src/main/AndroidManifest.xml:30:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>

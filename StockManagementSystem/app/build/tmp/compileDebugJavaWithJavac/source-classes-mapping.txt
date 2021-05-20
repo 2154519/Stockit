@@ -1,0 +1,26 @@
+com/example/stockmanagementsystem/ManualInsertionScreen.java
+ com.example.stockmanagementsystem.ManualInsertionScreen
+com/example/stockmanagementsystem/GenerateReportScreen1.java
+ com.example.stockmanagementsystem.GenerateReportScreen1
+com/example/stockmanagementsystem/QRScanScreen.java
+ com.example.stockmanagementsystem.QRScanScreen
+com/example/stockmanagementsystem/RegisterScreen2.java
+ com.example.stockmanagementsystem.RegisterScreen2
+com/example/stockmanagementsystem/RegisterScreen1.java
+ com.example.stockmanagementsystem.RegisterScreen1
+com/example/stockmanagementsystem/QuantityScreen.java
+ com.example.stockmanagementsystem.QuantityScreen
+com/example/stockmanagementsystem/HomeScreen.java
+ com.example.stockmanagementsystem.HomeScreen
+com/example/stockmanagementsystem/SignInScreen.java
+ com.example.stockmanagementsystem.SignInScreen
+com/example/stockmanagementsystem/GenerateReportScreen2.java
+ com.example.stockmanagementsystem.GenerateReportScreen2
+com/example/stockmanagementsystem/TakeInventoryScreen.java
+ com.example.stockmanagementsystem.TakeInventoryScreen
+com/example/stockmanagementsystem/MainActivity.java
+ com.example.stockmanagementsystem.MainActivity
+com/example/stockmanagementsystem/BuildConfig.java
+ com.example.stockmanagementsystem.BuildConfig
+com/example/stockmanagementsystem/StartScreen.java
+ com.example.stockmanagementsystem.StartScreen

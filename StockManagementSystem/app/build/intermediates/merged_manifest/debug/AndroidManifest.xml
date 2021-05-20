@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stockmanagementsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockManagementSystem" >
+        <activity android:name="com.example.stockmanagementsystem.QRScanScreen" />
+        <activity android:name="com.example.stockmanagementsystem.QuantityScreen" />
+        <activity android:name="com.example.stockmanagementsystem.ManualInsertionScreen" />
+        <activity android:name="com.example.stockmanagementsystem.GenerateReportScreen2" />
+        <activity android:name="com.example.stockmanagementsystem.GenerateReportScreen1" />
+        <activity android:name="com.example.stockmanagementsystem.TakeInventoryScreen" />
+        <activity android:name="com.example.stockmanagementsystem.HomeScreen" />
+        <activity android:name="com.example.stockmanagementsystem.RegisterScreen2" />
+        <activity android:name="com.example.stockmanagementsystem.RegisterScreen1" />
+        <activity android:name="com.example.stockmanagementsystem.SignInScreen" />
+        <activity android:name="com.example.stockmanagementsystem.StartScreen" />
+        <activity android:name="com.example.stockmanagementsystem.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

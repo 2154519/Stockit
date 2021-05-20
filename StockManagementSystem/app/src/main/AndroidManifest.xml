@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.stockmanagementsystem">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StockManagementSystem">
-        <activity android:name=".GenerateReportScreen1"></activity>
+        <activity android:name=".QRScanScreen"></activity>
+        <activity android:name=".QuantityScreen" />
+        <activity android:name=".ManualInsertionScreen" />
+        <activity android:name=".GenerateReportScreen2" />
+        <activity android:name=".GenerateReportScreen1" />
         <activity android:name=".TakeInventoryScreen" />
         <activity android:name=".HomeScreen" />
         <activity android:name=".RegisterScreen2" />
